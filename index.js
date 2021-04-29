@@ -22,7 +22,7 @@ bot.on("message", async message => {
     .split(" ")[0];	
 
     if (command === "gen") {	
-        if(message.channel.id !== "828550614857809930") return message.channel.send("This command can be runned only in the generate channel")	
+        if(message.channel.id !== "770022773945925652") return message.channel.send("This command can be runned only in the generate channel")	
 
         if (generated.has(message.author.id)) {	
             message.channel.send("Wait before generating another account!. - " + message.author);	
@@ -47,8 +47,8 @@ bot.on("message", async message => {
                     timestamp: "2019-04-04T14:16:26.398Z",	
                     footer: {	
                         icon_url:	
-                            "https://cdn.discordapp.com/attachments/828543735713103892/828692816800251914/lg.png",	
-                        text: "by L e m o n ÷ G e n"	
+                            "https://cdn.discordapp.com/avatars/530778425540083723/7a05e4dd16825d47b6cdfb02b92d26a5.png",	
+                        text: "Buy discord bots from Silvano#1337"	
                     },	
                     thumbnail: {	
                         url:	
@@ -233,4 +233,4 @@ if(command === "help") {
 }	
 })	
 
-bot.login(ODM2MzEwNDY4MDcwODY3MDI0.YIcI0Q.sGHmhcf1afEDOo-ggUzbO7Rklcc);	
+bot.login(TOKEN);	
